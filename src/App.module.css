@@ -1,0 +1,50 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px;
+  justify-content: center; 
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pagination button,
+.pagination .ellipsis {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination .ellipsis {
+  cursor: default;
+  background-color: transparent;
+}
+
+.pagination button.active {
+  background-color: #0056b3;
+}
+
+.pagination .arrow {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
